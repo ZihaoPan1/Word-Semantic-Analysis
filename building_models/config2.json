@@ -1,0 +1,23 @@
+{
+    "trn_file": "data/trn.csv",
+    "val_file": "data/val.csv",
+    "tes_file": "data/tes.csv",
+    "model_name": "prajjwal1/bert-small",
+    "epochs": 100,
+    "times": 5,
+    "batch_size": 8,
+    "max_length": 50,
+    "hidden_size": 512,
+    "output_labels": 2,
+    "seed": 2022,
+    "max_early_stop": 5,
+    "dropout_rate": 0.1,
+    "lr": 9E-6,
+    "num_workers": 0,
+    "model_path": "model_output/model.pt",
+    "trn_output_file": "model_output/trn_result.csv",
+    "tes_output_file": "model_output/tes_result.csv",
+    "output_file": "model_output/result.csv",
+
+    "best_threshold": 0
+}

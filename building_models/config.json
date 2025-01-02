@@ -1,0 +1,29 @@
+{
+    "dicts": ["collins_8th", "collins_online", "oxford_9th", "cambridge_4th", "longman"],
+    "trn_dicts": ["collins_8th", "collins_online", "oxford_9th", "Merriam_2th"],
+    "val_dicts": ["longman"],
+    "tes_dicts": ["cambridge_3th"],
+    "dict_path": "data/dict_data/",
+
+    "trn_file": "data/trn.csv",
+    "val_file": "data/val.csv",
+    "tes_file": "data/tes.csv",
+    "model_name": "prajjwal1/bert-small",
+    "epochs": 100,
+    "times": 3,
+    "batch_size": 128,
+    "max_length": 64,
+    "hidden_size": 512,
+    "output_labels": 2,
+    "seed": 2022,
+    "max_early_stop": 3,
+    "dropout_rate": 0.1,
+    "lr": 1E-05,
+    "num_workers": 0,
+    "model_path": "model_output/model.pt",
+    "trn_output_file": "model_output/trn_result.csv",
+    "tes_output_file": "model_output/tes_result.csv",
+    "output_file": "model_output/result.csv",
+
+    "best_threshold": 0
+}
